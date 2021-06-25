@@ -1,5 +1,8 @@
 {
-  "version": "0.0.0",
+  "name": "changethis",
+  "version": "0.0.1",
+  "description": "base template using react / vite / tailwind / linting",
+  "license": "MIT",
   "scripts": {
     "dv": "vite",
     "bd": "vite build",
