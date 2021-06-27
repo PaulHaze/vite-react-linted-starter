@@ -1,6 +1,6 @@
 {
-  "name": "changethis",
-  "version": "0.0.1",
+  "name": "update-this",
+  "version": "0.1.0",
   "description": "base template using react / vite / tailwind / linting",
   "license": "MIT",
   "scripts": {
