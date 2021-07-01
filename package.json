@@ -5,7 +5,7 @@
   "license": "MIT",
   "scripts": {
     "dv": "vite",
-    "bd": "vite build",
+    "bd": "NODE_ENV=production vite build",
     "serve": "vite preview"
   },
   "dependencies": {
