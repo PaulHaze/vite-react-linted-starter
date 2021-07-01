@@ -1,3 +1,5 @@
+const colors = require('tailwindcss/colors');
+
 module.exports = {
   mode: 'jit',
   purge: ['./public/**/*.html', './src/**/*.{js,jsx,ts,tsx,vue}'],
@@ -24,5 +26,29 @@ module.exports = {
         '2xl': '6rem',
       },
     },
+    extend: {
+      colors: {
+        transparent: 'transparent',
+        orange: colors.orange,
+        blueGray: colors.blueGray,
+        trueGray: colors.trueGray,
+        amber: colors.amber,
+        yellow: colors.yellow,
+        lime: colors.lime,
+        teal: colors.teal,
+        cyan: colors.cyan,
+        violet: colors.violet,
+        fuschia: colors.fuschia,
+        rose: colors.rose,
+      },
+    },
   },
 };
+
+/* 
+
+      gray: colors.trueGray,
+      indigo: colors.indigo,
+      red: colors.rose,
+      yellow: colors.amber,
+      */
