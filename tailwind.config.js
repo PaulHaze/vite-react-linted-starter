@@ -15,8 +15,8 @@ module.exports = {
       m2xl: { max: '1536px' },
     },
     container: {
+      center: true,
       padding: {
-        center: true,
         DEFAULT: '1rem',
         sm: '2rem',
         lg: '4rem',
