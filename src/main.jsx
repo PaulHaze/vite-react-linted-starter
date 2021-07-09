@@ -4,13 +4,13 @@ import ReactDOM from 'react-dom';
 import { Provider } from 'react-redux';
 import store from './redux/store';
 
+import { Home } from './views';
 import './css/main.css';
-import App from './App';
 
 ReactDOM.render(
   <Provider store={store}>
     <React.StrictMode>
-      <App />
+      <Home />
     </React.StrictMode>
   </Provider>,
   document.getElementById('root'),
