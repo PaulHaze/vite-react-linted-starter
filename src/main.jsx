@@ -1,17 +1,19 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-import { Provider } from 'react-redux';
-import store from './redux/store';
+//* ADD THESE FOR REDUX
+// import { Provider } from 'react-redux';
+// import store from './redux/store';
 
-import { Home } from './views';
 import './css/main.css';
+import { Home } from './views';
 
 ReactDOM.render(
-  <Provider store={store}>
-    <React.StrictMode>
-      <Home />
-    </React.StrictMode>
-  </Provider>,
+  <React.StrictMode>
+    {/* <Provider store={store}> */}
+    <Home />
+    {/* </Provider> */}
+  </React.StrictMode>,
+
   document.getElementById('root'),
 );
