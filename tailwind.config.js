@@ -34,6 +34,13 @@ module.exports = {
         lg: '1024px',
         xl: '1280px',
       },
+      spacing: {
+        sm: '8px',
+        md: '16px',
+        lg: '24px',
+        xl: '48px',
+        '2xl': '96px',
+      },
     },
   },
 };
